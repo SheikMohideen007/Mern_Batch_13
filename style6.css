@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  height: 250px;
+  width: 600px;
+  background-color: antiquewhite;
+  color: blue;
+  /* background-image: url("assets/car1.jpg"); */
+  background-repeat: no-repeat;
+  /* background-position-x: 50%; */
+  /* background-position-y: 50%; */
+  background-size: 200px 200px;
+  opacity: 1;
+  /* 0.1 0.2 0.25 - 1 */
+  /* padding-top: 10px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px; */
+  /* T R B L*/
+  margin: 20px 0px 0px 20px;
+  padding: 10px 20px 0px 20px;
+
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+  border: 2px blue solid;
+  /* padding: 10px; */
+}
+.box2 {
+  height: 200px;
+  width: 500px;
+  background-color: aquamarine;
+  border-top-style: solid;
+  border-right-style: groove;
+  border-bottom-style: double;
+  border-left-style: dashed;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-top-width: 10px;
+  border-right-width: 20px;
+  border-bottom-width: 10px;
+  border-left-width: 5px;
+  border-top-color: blue;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
